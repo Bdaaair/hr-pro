@@ -17,8 +17,7 @@ class Employee:
         return self.salary * 12
 Employee("Bader",30,2000,10).get_annual_salary()
 
-
-   #Employee class here
+#    #Employee class here
 class Manegar(Employee):
     def __init__(self, name, age, salary, employment_years, bonus_percentage):
         super().__init__(name, age, salary, employment_years)
@@ -26,15 +25,16 @@ class Manegar(Employee):
     
     def get_bonus(self):
         return self.bonus_percentage * self.salary
+    
 ana = Manegar(10)
 print(ana.get_bonus())
     
-# class Manager(Employee):
-#     #Manager class here
+# # class Manager(Employee):
+# #     #Manager class here
         
-# def main():
-# 	# main code here
+# # def main():
+# # 	# main code here
 
-# if __name__ == '__main__':
-# 	main()
-# Employee()
+# # if __name__ == '__main__':
+# # 	main()
+# # Employee()
